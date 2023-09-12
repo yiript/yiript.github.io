@@ -1,0 +1,42 @@
+body {
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    text-align: center;
+    padding: 50px; 
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    
+}
+h1{
+    color:#510;
+}
+p{
+    color:#299;
+}
+
+a {
+    display: block;
+    color:#EF5;
+    border:2px solid #b3057f;
+    paadding: 20px;
+    margin:25px;
+    text-decoration: none;
+    font-size:25px;
+    transition:0.5s;
+}
+
+a:hover {
+    background-color: rgb(204, 156, 233);
+    border-color: #101302;
+    border-radius: 100px;
+    transform:scale(1.2) rotate(5deg);
+    box-shadow:5px 5px 0px #000;
+font-weight:bold;
+
+}
